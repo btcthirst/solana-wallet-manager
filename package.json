@@ -22,9 +22,13 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@solana/client": "^1.0.0-rc.2",
-    "@solana/react-hooks": "^1.0.0-rc.3",
+    "@solana-program/system": "^0.12.0",
+    "@solana-program/token": "^0.13.0",
+    "@solana/client": "^1.7.0",
+    "@solana/kit": "^6.8.0",
+    "@solana/react-hooks": "^1.4.1",
     "@tailwindcss/vite": "^4",
+    "lucide-react": "^1.8.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "tailwindcss": "^4"
